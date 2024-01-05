@@ -190,6 +190,11 @@ h6 {
   color: #1bbd36;
 }
 
+.navbar li:hover,
+.navbar li.active {
+  color: #fff;
+}
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -256,7 +261,6 @@ h6 {
     left: -100%;
   }
 }
-
 /**
 * Mobile Navigation 
 */
